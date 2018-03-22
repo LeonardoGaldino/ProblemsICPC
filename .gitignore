@@ -1,0 +1,14 @@
+# Avoid uploading compiled files
+codeforces/*.out
+uva/*.out
+
+# Avoid uploading python bytecode files
+codeforces/*.pyc
+uva/*.pyc
+
+# Avoid uploading input/output files
+codeforces/in[0-9]*
+codeforces/out[0-9]*
+uva/in[0-9]*
+uva/out[0-9]*
+
