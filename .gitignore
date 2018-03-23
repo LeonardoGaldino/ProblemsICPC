@@ -7,8 +7,14 @@ codeforces/*.pyc
 uva/*.pyc
 
 # Avoid uploading input/output files
-codeforces/in[0-9]*
-codeforces/out[0-9]*
-uva/in[0-9]*
-uva/out[0-9]*
+# gitignore uses GLOB instead of regex matching so * can't be used
+# and redundance is necessary
+codeforces/in
+codeforces/in[0-9]
+codeforces/out
+codeforces/out[0-9]
+uva/in
+uva/in[0-9]
+uva/out
+uva/out[0-9]
 
