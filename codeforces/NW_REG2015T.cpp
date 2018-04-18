@@ -1,3 +1,4 @@
+// Brute force (Complete search) solution
 #include <iostream>
 
 #define LLI long long int
@@ -93,3 +94,4 @@ int main() {
 	}
 	return 0;
 }
+
